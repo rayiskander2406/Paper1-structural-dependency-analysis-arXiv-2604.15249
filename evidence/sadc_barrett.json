@@ -1,0 +1,21 @@
+{
+  "experiment": "exp_a_sadc_barrett",
+  "paper_section": "\u00a74.5",
+  "timestamp": "2026-04-11T09:38:43",
+  "z3_version": "4.15.4",
+  "cvc5_available": true,
+  "cvc5_version": "1.3.3",
+  "python": "3.14.4",
+  "platform": "Darwin-25.2.0-arm64-arm-64bit-Mach-O",
+  "passed": true,
+  "d1_flagged": 363,
+  "boolean_sadc_promoted": 0,
+  "boolean_sadc_insecure": 146,
+  "boolean_sadc_indeterminate": 217,
+  "arith_sadc_promoted": 198,
+  "arith_sadc_insecure": 165,
+  "arith_sadc_indeterminate": 0,
+  "cvc5_checks": 363,
+  "cvc5_disagreements": 0,
+  "total_time_s": 190.96686229109764
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Artifact: Structural Dependency Analysis for Masked NTT Hardware"
+type: software
+authors:
+  - family-names: Iskander
+    given-names: Ray
+    orcid: "https://orcid.org/0009-0008-7971-4992"
+  - family-names: Kirah
+    given-names: Khaled
+    orcid: "https://orcid.org/0000-0001-5090-2529"
+version: 1.0.0
+date-released: "2026-04-11"
+license: Apache-2.0
+repository-code: "https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-XXXX.XXXXX"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Iskander
+      given-names: Ray
+      orcid: "https://orcid.org/0009-0008-7971-4992"
+    - family-names: Kirah
+      given-names: Khaled
+      orcid: "https://orcid.org/0000-0001-5090-2529"
+  title: "Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"
+      description: "arXiv preprint"

@@ -1,0 +1,101 @@
+{
+  "experiment": "exp_c_self_checks",
+  "paper_section": "\u00a73.5",
+  "timestamp": "2026-04-11T09:39:01",
+  "z3_version": "4.15.4",
+  "python": "3.14.4",
+  "passed": true,
+  "n_checks": 17,
+  "n_boolean": 7,
+  "n_unmasked": 4,
+  "n_arithmetic": 6,
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "w=s0: secure (D0=SAT, D1=UNSAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=s1: secure (D0=UNSAT, D1=SAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=s0&s1: potentially_insecure (D0=SAT, D1=SAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=s0^s1: potentially_insecure (D0=SAT, D1=SAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=s0^r: secure (D0=SAT, D1=UNSAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=r: secure (D0=UNSAT, D1=UNSAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=1: secure (D0=UNSAT, D1=UNSAT)",
+      "category": "boolean",
+      "passed": true
+    },
+    {
+      "name": "w=s[0]: potentially_insecure (Ds=SAT)",
+      "category": "unmasked",
+      "passed": true
+    },
+    {
+      "name": "w=p[0]: secure (Ds=UNSAT)",
+      "category": "unmasked",
+      "passed": true
+    },
+    {
+      "name": "w=(s<p): potentially_insecure (Ds=SAT)",
+      "category": "unmasked",
+      "passed": true
+    },
+    {
+      "name": "w=1: secure (Ds=UNSAT)",
+      "category": "unmasked",
+      "passed": true
+    },
+    {
+      "name": "w=s0[0] (n=24): secure (D0=SAT, D1=UNSAT)",
+      "category": "arithmetic",
+      "passed": true
+    },
+    {
+      "name": "w=s1[0] (n=24): secure (D0=UNSAT, D1=SAT)",
+      "category": "arithmetic",
+      "passed": true
+    },
+    {
+      "name": "w=carry(s0+s1) (n=24): potentially_insecure (D0=SAT, D1=SAT)",
+      "category": "arithmetic",
+      "passed": true
+    },
+    {
+      "name": "w=(s0+s1)[0] (n=24): potentially_insecure (D0=SAT, D1=SAT)",
+      "category": "arithmetic",
+      "passed": true
+    },
+    {
+      "name": "w=s0[0]^s1[0] (n=24): potentially_insecure (D0=SAT, D1=SAT)",
+      "category": "arithmetic",
+      "passed": true
+    },
+    {
+      "name": "w=s0[23] (n=24): secure (D0=SAT, D1=UNSAT)",
+      "category": "arithmetic",
+      "passed": true
+    }
+  ],
+  "total_time_s": 0.0717008332721889
+}

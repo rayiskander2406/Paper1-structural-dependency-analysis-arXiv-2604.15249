@@ -1,0 +1,14 @@
+{
+  "experiment": "exp_b_dom_and_benchmark",
+  "paper_section": "\u00a74.4, \u00a74.5",
+  "timestamp": "2026-04-11T09:39:01",
+  "z3_version": "4.15.4",
+  "python": "3.14.4",
+  "passed": true,
+  "d1_flagged": 6,
+  "fm_promoted": 2,
+  "sadc_promoted": 4,
+  "residual": 0,
+  "fp_eliminated_100pct": true,
+  "total_time_s": 0.03446541680023074
+}

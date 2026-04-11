@@ -1,0 +1,2 @@
+z3-solver>=4.12
+# Optional: cvc5>=1.2 for dual-solver validation (363/363 agreement claim)

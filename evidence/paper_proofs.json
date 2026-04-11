@@ -1,0 +1,70 @@
+{
+  "suite": "QANARY v3.0 formal proof suite",
+  "paper": "Structural Dependency Analysis for Masked NTT Hardware (QANARY v3.0)",
+  "generated_at_utc": "2026-04-09T23:00:52.050499+00:00",
+  "host": {
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3",
+    "machine": "arm64"
+  },
+  "solvers": {
+    "z3_python": "4.15.4",
+    "cvc5_binary_path": "(stripped for publication)",
+    "cvc5_binary_version": "This is cvc5 version 1.3.3 [git 8ff882e on branch HEAD]",
+    "cvc5_python": "1.3.3"
+  },
+  "scripts": [
+    {
+      "label": "T2",
+      "script": "T2_boolean_reparametrization_round_trip.py",
+      "passed": true,
+      "wall_ms": 381.32,
+      "stdout_tail": "  STATUS: T2 PROVED  (Boolean round-trip holds)",
+      "sha256": "6061892bf484627bd1eccd508789af4820b4897f88e1fe69a2362a37d54ba72f"
+    },
+    {
+      "label": "T3",
+      "script": "T3_arithmetic_reparametrization_round_trip.py",
+      "passed": true,
+      "wall_ms": 897.97,
+      "stdout_tail": "  STATUS: T3 PROVED  (arithmetic round-trip holds for both deployed moduli)",
+      "sha256": "9b7407eff4d75d87aa4f713752841e003c3ce4cda781caad23cca4c48adb6d97"
+    },
+    {
+      "label": "T4",
+      "script": "T4_no_overflow_assertion.py",
+      "passed": true,
+      "wall_ms": 113.76,
+      "stdout_tail": "  STATUS: T4 PROVED  (no overflow on (x \u2212 s1 + q) for both moduli)",
+      "sha256": "e696282ffc14fa26c12c03d47ce2481b9e59bbd8d36db4bbc328cb078bc64dbb"
+    },
+    {
+      "label": "T5",
+      "script": "T5_mlkem_bias_ratio.py",
+      "passed": true,
+      "wall_ms": 94.82,
+      "stdout_tail": "  STATUS: T5 PROVED  (max bias ratio = 2 for raw 12-bit \u2192 Z_3329)",
+      "sha256": "975bd93d14401a4b9e702e4dc5a1e6c8b0969501d1dd4d6cf3543837c47b62dc"
+    },
+    {
+      "label": "T6",
+      "script": "T6_small_instance_value_independence.py",
+      "passed": true,
+      "wall_ms": 90.74,
+      "stdout_tail": "    (Case B) marginal constant does NOT imply VI          \u2014 converse fails",
+      "sha256": "a1833efaccc78efaf6daad230e48710247748981ee436e6ae782b21dd1cf48e0"
+    },
+    {
+      "label": "T1",
+      "script": "T1_value_independence_distributional.py",
+      "passed": true,
+      "wall_ms": 330.35,
+      "stdout_tail": "    function spaces) is reported as future work in \u00a76.",
+      "sha256": "a3f7501a3647f0415a934967f477c0fd62b813d00b4d6898d118110d939344c5"
+    }
+  ],
+  "n_passed": 6,
+  "n_total": 6,
+  "all_passed": true,
+  "scope_statement": "Algebraic backbone of \u00a73.9 only: T2 universal over 24-bit BV; T3 universal over both ML-KEM (q=3329, w=24) and ML-DSA (q=8380417, w=24) deployed share domains; T4 universal at three configurations (ML-KEM w=24, ML-DSA w=24 deployed-tight, ML-DSA w=46 conservative bound); T5 universal over Z_3329 raw-RNG domain; T6 two-case enumeration at q=5; T1 small-domain finite expansion of Theorem 3.9.1 at q=5. Fully-universal Theorem 3.9.1 reported as future work in \u00a76."
+}
