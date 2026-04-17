@@ -12,7 +12,7 @@ authors:
 version: 1.0.0
 date-released: "2026-04-11"
 license: Apache-2.0
-repository-code: "https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-XXXX.XXXXX"
+repository-code: "https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-2604.15249"
 preferred-citation:
   type: article
   authors:
@@ -26,5 +26,5 @@ preferred-citation:
   year: 2026
   identifiers:
     - type: other
-      value: "arXiv:XXXX.XXXXX"
+      value: "arXiv:2604.15249"
       description: "arXiv preprint"

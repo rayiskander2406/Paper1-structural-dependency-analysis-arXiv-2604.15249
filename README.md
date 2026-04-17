@@ -1,9 +1,9 @@
 # Structural Dependency Analysis for Masked NTT Hardware
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.15249-b31b1b.svg)](https://arxiv.org/abs/2604.15249)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-Artifact repository for reproducing results from [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX).
+Artifact repository for reproducing results from [arXiv:2604.15249](https://arxiv.org/abs/2604.15249).
 
 ## Abstract
 
@@ -12,8 +12,8 @@ We present a four-stage verification hierarchy --- D0/D1 structural dependency a
 ## Quick Start
 
 ```bash
-git clone https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-XXXX.XXXXX.git
-cd qanary-structural-dependency-analysis-arXiv-XXXX.XXXXX
+git clone https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-2604.15249.git
+cd qanary-structural-dependency-analysis-arXiv-2604.15249
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"
 
@@ -30,7 +30,7 @@ python reproduce.py --full
 ## Repository Structure
 
 ```
-qanary-structural-dependency-analysis-arXiv-XXXX.XXXXX/
+qanary-structural-dependency-analysis-arXiv-2604.15249/
 ├── reproduce.py                          # Main reproduction entry point
 ├── experiments/                          # Paper experiments
 │   ├── exp_a_sadc_barrett.py             # §4.5: Full SADC pipeline on Barrett
@@ -112,7 +112,7 @@ The Adams Bridge ML-DSA/ML-KEM accelerator (CHIPS Alliance / Caliptra project, c
          Cryptographic Accelerators},
   author={Iskander, Ray and Kirah, Khaled},
   year={2026},
-  eprint={XXXX.XXXXX},
+  eprint={2604.15249},
   archivePrefix={arXiv},
   primaryClass={cs.CR}
 }

@@ -1,7 +1,7 @@
 [project]
 name = "qanary-structural-dependency"
 version = "1.0.0"
-description = "Artifact repository for 'Structural Dependency Analysis for Masked NTT Hardware' (arXiv:XXXX.XXXXX)"
+description = "Artifact repository for 'Structural Dependency Analysis for Masked NTT Hardware' (arXiv:2604.15249)"
 authors = [
     { name = "Ray Iskander" },
     { name = "Khaled Kirah" },

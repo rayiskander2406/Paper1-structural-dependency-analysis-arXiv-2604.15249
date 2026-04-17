@@ -1,6 +1,6 @@
 {
   "title": "Artifact: Structural Dependency Analysis for Masked NTT Hardware",
-  "description": "Reproduction artifacts for arXiv:XXXX.XXXXX. Contains SMT-based structural dependency verification pipeline (D0/D1 + FM + Boolean SADC + Arithmetic SADC), formal proof suite (T1-T6, Z3/CVC5), and experimental evidence for production-scale masking verification of post-quantum cryptographic accelerators.",
+  "description": "Reproduction artifacts for arXiv:2604.15249. Contains SMT-based structural dependency verification pipeline (D0/D1 + FM + Boolean SADC + Arithmetic SADC), formal proof suite (T1-T6, Z3/CVC5), and experimental evidence for production-scale masking verification of post-quantum cryptographic accelerators.",
   "creators": [
     {
       "name": "Iskander, Ray",
@@ -32,7 +32,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "XXXX.XXXXX",
+      "identifier": "2604.15249",
       "relation": "isSupplementTo",
       "scheme": "arxiv"
     }

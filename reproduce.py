@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce results from arXiv:XXXX.XXXXX.
+"""Reproduce results from arXiv:2604.15249.
 
 "Structural Dependency Analysis for Masked NTT Hardware:
  Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators"
@@ -269,7 +269,7 @@ def print_summary(results: list[tuple[str, bool]]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Reproduce results from arXiv:XXXX.XXXXX.",
+        description="Reproduce results from arXiv:2604.15249.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
