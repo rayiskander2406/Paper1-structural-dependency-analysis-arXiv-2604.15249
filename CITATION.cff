@@ -12,13 +12,16 @@ authors:
 version: 1.0.0
 date-released: "2026-04-17"
 license: Apache-2.0
-doi: "10.5281/zenodo.19625393"
+doi: "10.5281/zenodo.19625392"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.19625392"
+    description: "Zenodo concept DOI (resolves to latest version)"
+  - type: doi
     value: "10.5281/zenodo.19625393"
-    description: "Zenodo archive DOI (v1.0.0)"
+    description: "Zenodo version DOI (v1.0.0)"
 repository-code: "https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-2604.15249"
-url: "https://doi.org/10.5281/zenodo.19625393"
+url: "https://doi.org/10.5281/zenodo.19625392"
 preferred-citation:
   type: article
   authors:

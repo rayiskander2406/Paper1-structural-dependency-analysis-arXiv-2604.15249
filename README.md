@@ -1,11 +1,12 @@
 # Structural Dependency Analysis for Masked NTT Hardware
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.15249-b31b1b.svg)](https://arxiv.org/abs/2604.15249)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19625393.svg)](https://doi.org/10.5281/zenodo.19625393)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19625392.svg)](https://doi.org/10.5281/zenodo.19625392)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 Artifact repository for reproducing results from [arXiv:2604.15249](https://arxiv.org/abs/2604.15249).
-Archived on Zenodo: [10.5281/zenodo.19625393](https://doi.org/10.5281/zenodo.19625393).
+Archived on Zenodo — concept DOI: [10.5281/zenodo.19625392](https://doi.org/10.5281/zenodo.19625392) (resolves to latest version);
+v1.0.0 version DOI: [10.5281/zenodo.19625393](https://doi.org/10.5281/zenodo.19625393).
 
 ## Abstract
 
@@ -122,7 +123,8 @@ To cite the paper:
 }
 ```
 
-To cite this artifact (software):
+To cite this artifact (software) — use the concept DOI so the citation always
+resolves to the latest archived version:
 
 ```bibtex
 @software{iskander2026structural_artifact,
@@ -130,8 +132,9 @@ To cite this artifact (software):
   author={Iskander, Ray and Kirah, Khaled},
   year={2026},
   version={1.0.0},
-  doi={10.5281/zenodo.19625393},
-  url={https://doi.org/10.5281/zenodo.19625393}
+  doi={10.5281/zenodo.19625392},
+  url={https://doi.org/10.5281/zenodo.19625392},
+  note={Version 1.0.0 DOI: 10.5281/zenodo.19625393}
 }
 ```
 
