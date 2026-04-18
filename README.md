@@ -15,8 +15,8 @@ We present a four-stage verification hierarchy --- D0/D1 structural dependency a
 ## Quick Start
 
 ```bash
-git clone https://github.com/rayiskander2406/qanary-structural-dependency-analysis-arXiv-2604.15249.git
-cd qanary-structural-dependency-analysis-arXiv-2604.15249
+git clone https://github.com/rayiskander2406/Paper1-structural-dependency-analysis-arXiv-2604.15249.git
+cd Paper1-structural-dependency-analysis-arXiv-2604.15249
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"
 
@@ -33,7 +33,7 @@ python reproduce.py --full
 ## Repository Structure
 
 ```
-qanary-structural-dependency-analysis-arXiv-2604.15249/
+Paper1-structural-dependency-analysis-arXiv-2604.15249/
 ├── reproduce.py                          # Main reproduction entry point
 ├── experiments/                          # Paper experiments
 │   ├── exp_a_sadc_barrett.py             # §4.5: Full SADC pipeline on Barrett

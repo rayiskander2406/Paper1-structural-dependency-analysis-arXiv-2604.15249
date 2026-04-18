@@ -2,9 +2,16 @@ __pycache__/
 *.pyc
 *.egg-info/
 dist/
-build/
+/build/
 venv/
 .venv/
 *.json.bak
 .DS_Store
 .envrc
+
+# Regeneratable / transient build artifacts
+paper/build/reference.docx
+*.verification.log
+
+# NOTE: paper/ IS tracked. Standing rule: all paper artifacts in-repo with commits.
+# See ~/.claude/projects/-Users-rayiskander-qanary/memory/no-desktop-storage-version-control.md
